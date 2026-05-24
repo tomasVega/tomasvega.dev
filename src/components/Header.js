@@ -13,6 +13,13 @@ export default function Header({ dict, locale, isLegalPage = false }) {
     return segments.join('/');
   };
 
+  const handleBrandClick = (e) => {
+    if (pathname === `/${locale}`) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
   return (
     <nav className="fixed w-full z-50 top-0 bg-slate-950/70 backdrop-blur-md border-b border-white/5">
       {/* Skip Link to main content */}
@@ -26,6 +33,7 @@ export default function Header({ dict, locale, isLegalPage = false }) {
       <div className="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link 
           href={`/${locale}`} 
+          onClick={handleBrandClick}
           className="text-2xl font-extrabold text-white tracking-tighter hover:text-cyan-400 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-lg"
         >
           tomasvega<span className="text-cyan-400">.</span>dev
