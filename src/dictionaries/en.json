@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "back": "Back"
+  },
+  "hero": {
+    "role_badge": "Software Engineer",
+    "location": "Ourense, Spain",
+    "desc": "Fullstack software developer with over <strong class=\"text-white font-semibold\">15 years of experience</strong> designing and building robust solutions. Passionate about coding, AI enthusiast, and a strong advocate for free and open-source software."
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "present": "Present",
+    "projects_header": "Featured projects and clients throughout my career at Plexus:",
+    "plexus": {
+      "role": "Software Engineer",
+      "duration": "Jun 2011 — Present",
+      "desc": "Currently, I am the technical lead within the Plexus product area, in charge of the turn management system, Quenda, for all citizen service offices of the Madrid City Council.",
+      "projects": {
+        "iam": {
+          "title": "IAM (Informática del Ayuntamiento de Madrid)",
+          "desc": "Team management, analysis, development, and implementation of Quenda for the Línea Madrid citizen service offices, with direct client interaction in both technical and functional meetings."
+        },
+        "correos": {
+          "title": "Correos (Spanish Post Office)",
+          "desc": "Analysis, development, and implementation of Quenda for Correos post offices in Spain."
+        },
+        "endesa": {
+          "title": "Endesa / Enel (Energy Utility)",
+          "desc": "Development and implementation of Quenda for Endesa offices in Spain."
+        },
+        "tvg": {
+          "title": "TVG (Televisión de Galicia)",
+          "desc": "Development, implementation, and deployment in production of a project displaying real-time election results for Galicia and the Basque Country in 2012 and subsequent years."
+        },
+        "cixtec": {
+          "title": "CIXTEC (Computer Center for Tax, Economic-Financial, and Accounting Management)",
+          "desc": "Development and customization of the GLPI service management tool."
+        },
+        "xunta": {
+          "title": "Xunta de Galicia (Consellería de Medio Ambiente, Territorio e Infraestructuras. Dirección Xeral de Mobilidade)",
+          "desc": "Maintenance and development of a software tool for the management of bus route concessions."
+        },
+        "deputacion": {
+          "title": "Deputación de Lugo",
+          "desc": "Maintenance and development of an e-commerce platform based on Magento."
+        }
+      }
+    },
+    "globant": {
+      "role": "Software Developer",
+      "duration": "Jun 2015 — Jul 2015",
+      "desc": "Participation in the development of the official ticket-selling web platform for Disney theme parks.",
+      "collab": "Strategic international inter-company collaboration between Plexus Tech and Globant"
+    }
+  },
+  "education": {
+    "title": "Education & Certifications",
+    "degree": "Bachelor's Degree in Computer Engineering",
+    "university": "Universidade de Santiago de Compostela",
+    "tfg_title": "TFG (Thesis): \"Trobador\" (Grade: 9.4)",
+    "tfg_desc": "Open-source web application designed to manage translation memories with TMX export capabilities. Features an integrated plugin with \"gTranslator\" to streamline the workflow.",
+    "tfg_repo": "View repository on GitHub",
+    "scrum_title": "Scrum Manager - Expert Level",
+    "scrum_id": "Credential ID: 16924"
+  },
+  "skills": {
+    "title": "Tech Stack",
+    "categories": {
+      "backend": "Backend & Databases",
+      "frontend": "Frontend & Modern Web",
+      "methodologies": "Methodologies & DevOps",
+      "languages": "Languages"
+    },
+    "langs": {
+      "spanish": "Spanish",
+      "spanish_level": "Native",
+      "english": "English",
+      "english_level": "Professional",
+      "galego": "Galician",
+      "galego_level": "Native"
+    }
+  },
+  "footer": {
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "rights": "Open Source under Apache 2.0 License"
+  }
+}

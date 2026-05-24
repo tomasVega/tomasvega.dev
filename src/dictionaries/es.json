@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "experience": "Experiencia",
+    "education": "Educación",
+    "skills": "Aptitudes",
+    "back": "Volver"
+  },
+  "hero": {
+    "role_badge": "Software Engineer",
+    "location": "Ourense, España",
+    "desc": "Desarrollador de software fullstack con más de <strong class=\"text-white font-semibold\">15 años de experiencia</strong> diseñando y construyendo soluciones robustas. Apasionado de la programación, entusiasta de la IA y firme defensor de la filosofía del software libre."
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "present": "Actualidad",
+    "projects_header": "Proyectos y clientes destacados a lo largo de mi trayectoria en Plexus:",
+    "plexus": {
+      "role": "Software Engineer",
+      "duration": "Jun 2011 — Actualidad",
+      "desc": "Actualmente soy el líder técnico, dentro del área de producto de Plexus, encargado del sistema de gestión de turnos, Quenda, para todas las oficinas de atención al ciudadano del Ayuntamiento de Madrid.",
+      "projects": {
+        "iam": {
+          "title": "IAM (Informática del Ayuntamiento de Madrid)",
+          "desc": "Gestión de equipos, análisis, desarrollo e implantación de Quenda para las oficinas de atención a la ciudadanía de Línea Madrid, con interlocución directa con el cliente en reuniones tanto técnicas como funcionales."
+        },
+        "correos": {
+          "title": "Correos",
+          "desc": "Análisis, desarrollo e implantación de Quenda para las oficinas de Correos en España."
+        },
+        "endesa": {
+          "title": "Endesa / Enel",
+          "desc": "Desarrollo e implantación de Quenda para las oficinas de Endesa en España."
+        },
+        "tvg": {
+          "title": "TVG (Televisión de Galicia)",
+          "desc": "Desarrollo, implantación y puesta en producción de un proyecto que mostraba en tiempo real el resultado de las elecciones autonómicas para Galicia y País Vasco del año 2012 y sucesivos."
+        },
+        "cixtec": {
+          "title": "CIXTEC (Centro Informático para Xestión Tributaria, Económico-financiera e Contable)",
+          "desc": "Desarrollo y adaptación de la herramienta GLPI."
+        },
+        "xunta": {
+          "title": "Xunta de Galicia (Consellería de Medio Ambiente, Territorio e Infraestructuras. Dirección Xeral de Mobilidade)",
+          "desc": "Mantenimiento y desarrollo de una herramienta para la gestión de concesiones de líneas de autobuses."
+        },
+        "deputacion": {
+          "title": "Deputación de Lugo",
+          "desc": "Mantenimiento y desarrollo de un comercio electrónico basado en Magento."
+        }
+      }
+    },
+    "globant": {
+      "role": "Software Developer",
+      "duration": "Jun 2015 — Jul 2015",
+      "desc": "Participación en el desarrollo de la plataforma web oficial de venta de entradas para los parques de atracciones de Disney.",
+      "collab": "Colaboración estratégica internacional inter-empresa entre Plexus Tech y Globant"
+    }
+  },
+  "education": {
+    "title": "Educación y Certificaciones",
+    "degree": "Grado en Ingeniería Informática",
+    "university": "Universidade de Santiago de Compostela",
+    "tfg_title": "TFG: \"Trobador\" (Nota: 9.4)",
+    "tfg_desc": "Aplicación web open-source que permite gestionar memorias de traducción con exportación a formato TMX. Incluye un plugin integrado con \"gTranslator\" para agilizar el trabajo.",
+    "tfg_repo": "Ver repositorio en GitHub",
+    "scrum_title": "Scrum Manager Nivel Experto",
+    "scrum_id": "ID Credencial: 16924"
+  },
+  "skills": {
+    "title": "Stack Tecnológico",
+    "categories": {
+      "backend": "Backend & Bases de Datos",
+      "frontend": "Frontend",
+      "methodologies": "Metodologías & DevOps",
+      "languages": "Idiomas"
+    },
+    "langs": {
+      "spanish": "Español",
+      "spanish_level": "Nativo",
+      "english": "Inglés",
+      "english_level": "Profesional",
+      "galego": "Galego",
+      "galego_level": "Nativo"
+    }
+  },
+  "footer": {
+    "legal": "Aviso Legal",
+    "privacy": "Política de Privacidad",
+    "rights": "Código Abierto bajo Licencia Apache 2.0"
+  }
+}
