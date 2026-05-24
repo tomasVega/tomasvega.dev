@@ -3,7 +3,7 @@
 Este es el repositorio de mi sitio web personal y portfolio profesional, accesible en [tomasvega.dev](https://tomasvega.dev).
 
 ## 📚 Propósito del Proyecto
-Este proyecto ha sido desarrollado y estructurado con **fines de aprendizaje, práctica y experimentación tecnológica**. Ha servido como entorno de pruebas para la migración de un sitio web estático tradicional (HTML/CSS) a una arquitectura de componentes React moderna basada en **Next.js** e internacionalización dinámica (`i18n`) en el servidor.
+Este proyecto ha sido desarrollado y estructurado con **fines de aprendizaje, práctica y experimentación tecnológica**. Ha servido como entorno de pruebas para la migración de un sitio web estático tradicional (HTML/CSS) a una arquitectura de componentes React moderna basada en **Next.js**. Sientete libre de usarlo.
 
 ---
 
