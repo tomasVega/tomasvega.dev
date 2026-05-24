@@ -13,15 +13,8 @@ export function middleware(request) {
 
   if (pathnameHasLocale) return
 
-  // Basic language detection via headers
-  const acceptLanguage = request.headers.get('accept-language') || ''
-  let locale = defaultLocale
-  if (acceptLanguage.includes('en')) {
-    locale = 'en'
-  }
-
-  // Redirect to correct locale
-  return NextResponse.redirect(new URL(`/${locale}${pathname}`, request.url))
+  // Redirect to default locale (always Spanish)
+  return NextResponse.redirect(new URL(`/${defaultLocale}${pathname}`, request.url))
 }
 
 export const config = {

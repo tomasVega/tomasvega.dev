@@ -1,6 +1,6 @@
 export default function Education({ dict }) {
   return (
-    <section id="education" className="scroll-mt-24 mb-32 animate-fade-up delay-200 opacity-0">
+    <section id="education" className="scroll-mt-24 mb-32 animate-fade-up animate-delay-200">
       <div className="flex items-center gap-4 mb-12">
         <h3 className="text-2xl font-bold text-white">{dict.education.title}</h3>
         <div className="h-px bg-white/10 flex-grow" aria-hidden="true"></div>

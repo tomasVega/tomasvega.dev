@@ -2,7 +2,7 @@ export default function Experience({ dict }) {
   const pList = dict.experience.plexus.projects;
 
   return (
-    <section id="experience" className="scroll-mt-24 mb-32 animate-fade-up delay-100 opacity-0">
+    <section id="experience" className="scroll-mt-24 mb-32 animate-fade-up animate-delay-100">
       <div className="flex items-center gap-4 mb-12">
         <h3 className="text-2xl font-bold text-white">{dict.experience.title}</h3>
         <div className="h-px bg-white/10 flex-grow" aria-hidden="true"></div>

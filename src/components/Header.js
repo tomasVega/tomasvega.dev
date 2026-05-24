@@ -41,31 +41,31 @@ export default function Header({ dict, locale, isLegalPage = false }) {
 
         <div className="flex items-center gap-4">
           {/* Language Selector */}
-          <div className="flex items-center gap-3 bg-white/5 border border-white/10 px-3.5 py-2 rounded-xl">
+          <div className="flex items-center gap-4">
             <Link 
               href={getRedirectedPathname('es')} 
-              className={`relative flex items-center justify-center w-5 h-5 rounded-full overflow-hidden transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 ${locale === 'es' ? 'ring-2 ring-cyan-400 scale-110 shadow-[0_0_10px_rgba(34,211,238,0.4)]' : 'opacity-40 hover:opacity-100 hover:scale-105'}`}
+              className={`relative flex items-center justify-center w-6 h-4 rounded-sm overflow-hidden transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 ${locale === 'es' ? 'ring-2 ring-cyan-400 scale-110 shadow-[0_0_10px_rgba(34,211,238,0.5)] ring-offset-1 ring-offset-slate-950 opacity-100' : 'opacity-40 hover:opacity-100 hover:scale-105 border border-white/10'}`}
               title="Español"
               aria-label="Cambiar idioma a Español"
             >
-              <svg className="w-full h-full object-cover" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="512" height="128" fill="#c60b1e"/>
-                <rect y="128" width="512" height="256" fill="#fecb00"/>
-                <rect y="384" width="512" height="128" fill="#c60b1e"/>
+              <svg className="w-full h-full" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="300" height="50" fill="#c60b1e"/>
+                <rect y="50" width="300" height="100" fill="#fecb00"/>
+                <rect y="150" width="300" height="50" fill="#c60b1e"/>
               </svg>
             </Link>
             <Link 
               href={getRedirectedPathname('en')} 
-              className={`relative flex items-center justify-center w-5 h-5 rounded-full overflow-hidden transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 ${locale === 'en' ? 'ring-2 ring-cyan-400 scale-110 shadow-[0_0_10px_rgba(34,211,238,0.4)]' : 'opacity-40 hover:opacity-100 hover:scale-105'}`}
+              className={`relative flex items-center justify-center w-6 h-4 rounded-sm overflow-hidden transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 ${locale === 'en' ? 'ring-2 ring-cyan-400 scale-110 shadow-[0_0_10px_rgba(34,211,238,0.5)] ring-offset-1 ring-offset-slate-950 opacity-100' : 'opacity-40 hover:opacity-100 hover:scale-105 border border-white/10'}`}
               title="English"
               aria-label="Change language to English"
             >
-              <svg className="w-full h-full object-cover" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="512" height="512" fill="#012169"/>
-                <path d="M0 0 L512 512 M512 0 L0 512" stroke="#fff" strokeWidth="60"/>
-                <path d="M0 0 L512 512 M512 0 L0 512" stroke="#C8102E" strokeWidth="36"/>
-                <path d="M256 0 V512 M0 256 H512" stroke="#fff" strokeWidth="100"/>
-                <path d="M256 0 V512 M0 256 H512" stroke="#C8102E" strokeWidth="60"/>
+              <svg className="w-full h-full" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="300" height="200" fill="#012169"/>
+                <path d="M0 0 L300 200 M300 0 L0 200" stroke="#fff" strokeWidth="30"/>
+                <path d="M0 0 L300 200 M300 0 L0 200" stroke="#C8102E" strokeWidth="18"/>
+                <path d="M150 0 V200 M0 100 H300" stroke="#fff" strokeWidth="50"/>
+                <path d="M150 0 V200 M0 100 H300" stroke="#C8102E" strokeWidth="30"/>
               </svg>
             </Link>
           </div>
