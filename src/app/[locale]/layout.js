@@ -21,7 +21,7 @@ export async function generateMetadata({ params }) {
     : 'Portfolio of Tomás Vega Castro, Software Engineer with over 15 years of experience specializing in Java, Spring, and PHP. Based in Ourense, Galicia.';
   
   return {
-    title: 'Tomás Vega Castro | Software Engineer',
+    title: 'Tomás Vega Castro',
     description,
     robots: 'index, follow',
     icons: {
