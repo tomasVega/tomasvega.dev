@@ -21,9 +21,9 @@ export default async function Page({ params }) {
         <header className="mb-12">
           <h1 className="text-4xl font-extrabold tracking-tight text-white mb-4">
             {isEs ? (
-              <>Política de <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Privacidad</span></>
+              <>Política de Privacidad</>
             ) : (
-              <>Privacy <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Policy</span></>
+              <>Privacy Policy</>
             )}
           </h1>
           <p className="text-slate-400">
