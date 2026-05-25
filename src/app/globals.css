@@ -30,3 +30,8 @@ body {
 .animate-delay-100 { animation-delay: 100ms; }
 .animate-delay-200 { animation-delay: 200ms; }
 .animate-delay-300 { animation-delay: 300ms; }
+
+.text-blue-400 {
+    --tw-text-opacity: 1;
+    color: rgb(34 211 238 / var(--tw-bg-opacity, 1));
+}

@@ -8,7 +8,7 @@
   "hero": {
     "role_badge": "Software Engineer",
     "location": "Ourense, España",
-    "desc": "<strong class=\"text-white font-semibold\">15+ años de experiencia</strong> construyendo sistemas de alta disponibilidad para miles de usuarios. Apasionado de la programación, entusiasta de la IA y firme defensor de la filosofía del software libre."
+    "desc": "<strong class=\"text-white font-semibold\">15+ años de experiencia</strong> construyendo sistemas de alta disponibilidad usados por miles de usuarios. Apasionado de la programación, entusiasta de la IA y firme defensor de la filosofía del software libre."
   },
   "experience": {
     "title": "Experiencia Profesional",
@@ -53,7 +53,7 @@
       "role": "Software Developer",
       "duration": "Jun 2015 — Jul 2015",
       "desc": "Participación en el desarrollo de la plataforma web oficial de venta de entradas para los parques de atracciones de Disney.",
-      "collab": "Colaboración estratégica internacional inter-empresa entre Plexus Tech y Globant"
+      "collab": "Colaboración estratégica internacional Plexus-Globant"
     }
   },
   "education": {
