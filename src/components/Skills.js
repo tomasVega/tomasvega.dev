@@ -14,10 +14,8 @@ export default function Skills({ dict }) {
           <div className="flex flex-wrap gap-3">
             <span className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 font-medium hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all cursor-default">Java EE</span>
             <span className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 font-medium hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all cursor-default">Spring Framework</span>
-            <span className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 font-medium hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all cursor-default">Oracle</span>
             <span className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 font-medium hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all cursor-default">PHP</span>
-            <span className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 font-medium hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all cursor-default">Magento</span>
-            <span className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 font-medium hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all cursor-default">GLPI</span>
+            <span className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 font-medium hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all cursor-default">Oracle</span>
             <span className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 font-medium hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all cursor-default">MySQL</span>
           </div>
         </div>
