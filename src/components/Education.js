@@ -16,9 +16,12 @@ export default function Education({ dict }) {
             href="https://www.linkedin.com/school/universidad-de-santiago-de-compostela/" 
             target="_blank" 
             rel="noopener noreferrer" 
-            className="text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
+            className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
           >
             {dict.education.university}
+            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
           </a>
         </div>
         
@@ -39,7 +42,7 @@ export default function Education({ dict }) {
             className="inline-flex items-center text-sm font-medium text-cyan-400 hover:text-cyan-300 transition-colors group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
           >
             {dict.education.tfg_repo}
-            <svg className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
             </svg>
           </a>

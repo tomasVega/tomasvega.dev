@@ -22,9 +22,12 @@ export default function Experience({ dict }) {
                   href="https://www.linkedin.com/company/plexus-tech/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
+                  className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
                 >
                   Plexus Tech
+                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                  </svg>
                 </a>
               </div>
             </div>
@@ -64,9 +67,12 @@ export default function Experience({ dict }) {
                   href="https://www.linkedin.com/company/globant/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
+                  className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
                 >
                   Globant
+                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                  </svg>
                 </a>
                 <span className="text-sm text-slate-500"> | Buenos Aires</span>
               </div>
