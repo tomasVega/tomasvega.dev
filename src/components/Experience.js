@@ -14,26 +14,26 @@ export default function Experience({ dict }) {
         <div className="relative group">
           <div className="absolute -left-[39px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-cyan-400 group-hover:scale-125 group-hover:bg-cyan-400 group-hover:shadow-[0_0_15px_rgba(34,211,238,0.5)] transition-all duration-300" aria-hidden="true"></div>
           
-          <div className="flex flex-row justify-between items-baseline mb-4">
-            <div>
+          <div className="mb-4">
+            <div className="flex flex-row justify-between items-baseline">
               <h4 className="text-xl font-bold text-white">{dict.experience.plexus.role}</h4>
-              <div className="text-lg font-medium text-slate-400 mt-1">
-                <a 
-                  href="https://www.linkedin.com/company/plexus-tech/" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
-                >
-                  Plexus Tech
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                  </svg>
-                </a>
-              </div>
+              <span className="text-sm font-medium text-cyan-400 bg-cyan-400/10 border border-cyan-400/20 px-3 py-1 rounded-full ml-4 whitespace-nowrap">
+                {dict.experience.plexus.duration}
+              </span>
             </div>
-            <span className="text-sm font-medium text-cyan-400 bg-cyan-400/10 border border-cyan-400/20 px-3 py-1 rounded-full ml-4 whitespace-nowrap">
-              {dict.experience.plexus.duration}
-            </span>
+            <div className="text-lg font-medium text-slate-400 mt-1 flex flex-row justify-between items-center w-full">
+              <a 
+                href="https://www.linkedin.com/company/plexus-tech/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
+              >
+                Plexus Tech
+                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+              </a>
+            </div>
           </div>
           
           <p className="text-slate-300 leading-relaxed mb-6">
@@ -59,27 +59,28 @@ export default function Experience({ dict }) {
         <div className="relative group">
           <div className="absolute -left-[39px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-cyan-400 group-hover:scale-125 group-hover:bg-cyan-400 group-hover:shadow-[0_0_15px_rgba(34,211,238,0.5)] transition-all duration-300" aria-hidden="true"></div>
           
-          <div className="flex flex-row justify-between items-baseline mb-4">
-            <div>
+          <div className="mb-4">
+            <div className="flex flex-row justify-between items-baseline">
               <h4 className="text-xl font-bold text-white">{dict.experience.globant.role}</h4>
-              <div className="text-lg font-medium text-slate-400 mt-1">
-                <a 
-                  href="https://www.linkedin.com/company/globant/" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
-                >
-                  Globant
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-                  </svg>
-                </a>
-                <span className="text-sm text-slate-500"> | Buenos Aires</span>
-              </div>
+              <span className="text-sm font-medium text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full ml-4 whitespace-nowrap">
+                {dict.experience.globant.duration}
+              </span>
             </div>
-            <span className="text-sm font-medium text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full ml-4 whitespace-nowrap">
-              {dict.experience.globant.duration}
-            </span>
+            <div className="text-lg font-medium text-slate-400 mt-1 flex flex-row items-center gap-2">
+              <a 
+                href="https://www.linkedin.com/company/globant/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-md"
+              >
+                Globant
+                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                </svg>
+              </a>
+              <span className="text-sm text-slate-500" aria-hidden="true">|</span>
+              <span className="text-sm text-slate-500">Buenos Aires</span>
+            </div>
           </div>
           
           <p className="text-slate-300 leading-relaxed mb-4">
