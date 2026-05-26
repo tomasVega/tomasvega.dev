@@ -14,7 +14,7 @@ export default function Experience({ dict }) {
         <div className="relative group">
           <div className="absolute -left-[39px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-cyan-400 group-hover:scale-125 group-hover:bg-cyan-400 group-hover:shadow-[0_0_15px_rgba(34,211,238,0.5)] transition-all duration-300" aria-hidden="true"></div>
           
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-4">
+          <div className="flex flex-row justify-between items-baseline mb-4">
             <div>
               <h4 className="text-xl font-bold text-white">{dict.experience.plexus.role}</h4>
               <div className="text-lg font-medium text-slate-400 mt-1">
@@ -31,7 +31,7 @@ export default function Experience({ dict }) {
                 </a>
               </div>
             </div>
-            <span className="text-sm font-medium text-cyan-400 bg-cyan-400/10 border border-cyan-400/20 px-3 py-1 rounded-full mt-3 sm:mt-0 w-max">
+            <span className="text-sm font-medium text-cyan-400 bg-cyan-400/10 border border-cyan-400/20 px-3 py-1 rounded-full ml-4 whitespace-nowrap">
               {dict.experience.plexus.duration}
             </span>
           </div>
@@ -59,7 +59,7 @@ export default function Experience({ dict }) {
         <div className="relative group">
           <div className="absolute -left-[39px] top-1 w-4 h-4 rounded-full bg-slate-950 border-2 border-cyan-400 group-hover:scale-125 group-hover:bg-cyan-400 group-hover:shadow-[0_0_15px_rgba(34,211,238,0.5)] transition-all duration-300" aria-hidden="true"></div>
           
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-4">
+          <div className="flex flex-row justify-between items-baseline mb-4">
             <div>
               <h4 className="text-xl font-bold text-white">{dict.experience.globant.role}</h4>
               <div className="text-lg font-medium text-slate-400 mt-1">
@@ -77,7 +77,7 @@ export default function Experience({ dict }) {
                 <span className="text-sm text-slate-500"> | Buenos Aires</span>
               </div>
             </div>
-            <span className="text-sm font-medium text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full mt-3 sm:mt-0 w-max">
+            <span className="text-sm font-medium text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full ml-4 whitespace-nowrap">
               {dict.experience.globant.duration}
             </span>
           </div>

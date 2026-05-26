@@ -7,9 +7,9 @@ export default function Education({ dict }) {
       </div>
       
       <div className="bg-gradient-to-b from-white/5 to-transparent border border-white/10 rounded-2xl p-6 sm:p-8 mb-6 hover:border-white/20 transition-all">
-        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-2">
+        <div className="flex flex-row justify-between items-baseline mb-2">
           <h4 className="text-xl font-bold text-white">{dict.education.degree}</h4>
-          <span className="text-sm text-slate-400 mt-2 sm:mt-0">2006 — 2012</span>
+          <span className="text-sm font-medium text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full ml-4 whitespace-nowrap">2006 — 2012</span>
         </div>
         <div className="text-cyan-400 font-medium mb-6">
           <a 

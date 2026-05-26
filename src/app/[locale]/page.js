@@ -18,7 +18,7 @@ export default async function Page({ params }) {
   return (
     <>
       <Header dict={dict} locale={locale} />
-      <main id="main-content" className="max-w-3xl mx-auto px-6 pt-40 pb-20">
+      <main id="main-content" className="max-w-3xl mx-auto px-6 pt-24 sm:pt-40 pb-20">
         <Hero dict={dict} />
         <Experience dict={dict} />
         <Education dict={dict} />
