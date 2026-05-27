@@ -8,7 +8,7 @@
   "hero": {
     "role_badge": "Software Engineer",
     "location": "Ourense, Spain",
-    "desc": " <strong class=\"text-white font-semibold\">15+ years</strong> building high-availability systems serving thousands of users. Passionate about programming, enthusiastic about AI, and a strong advocate for open source philosophy."
+    "desc": "Over <strong class=\"text-white font-semibold\">15 years of experience</strong> building high-availability systems used by thousands of people every day and without even knowing it, chances are you've already used one of them ;)"
   },
   "experience": {
     "title": "Professional Experience",
@@ -17,7 +17,7 @@
     "plexus": {
       "role": "Software Engineer",
       "duration": "Jun 2011 — Present",
-      "desc": "Currently, I am the technical lead within the Plexus product area, in charge of the turn management system, Quenda, for all citizen service offices of the Madrid City Council.",
+      "desc": "I currently serve as Tech Lead within the product area at Plexus, overseeing Quenda — a turn management and appointment booking system deployed across all citizen service offices of the Madrid City Council.",
       "projects": {
         "iam": {
           "title": "IAM (Informática del Ayuntamiento de Madrid)",

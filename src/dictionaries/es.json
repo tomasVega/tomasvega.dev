@@ -8,7 +8,7 @@
   "hero": {
     "role_badge": "Software Engineer",
     "location": "Ourense, España",
-    "desc": "<strong class=\"text-white font-semibold\">15+ años de experiencia</strong> construyendo sistemas de alta disponibilidad que usan miles de usuarios al día. Apasionado de la programación, entusiasta de la IA y firme defensor de la filosofía del software libre."
+    "desc": "Más de <strong class=\"text-white font-semibold\">15 años de experiencia</strong> construyendo sistemas de alta disponibilidad que utilizan miles de usuarios al día, y sin saberlo, probablemente ya hayas usado alguno de ellos ;)"
   },
   "experience": {
     "title": "Experiencia Profesional",
@@ -17,7 +17,7 @@
     "plexus": {
       "role": "Software Engineer",
       "duration": "Jun 2011 — Actualidad",
-      "desc": "Actualmente soy el líder técnico, dentro del área de producto de Plexus, encargado del sistema de gestión de turnos, Quenda, para todas las oficinas de atención al ciudadano del Ayuntamiento de Madrid.",
+      "desc": "Actualmente soy el líder técnico, dentro del área de producto de Plexus, encargado del sistema de gestión de turnos y cita previa, Quenda, para todas las oficinas de atención al ciudadano del Ayuntamiento de Madrid.",
       "projects": {
         "iam": {
           "title": "IAM (Informática del Ayuntamiento de Madrid)",
