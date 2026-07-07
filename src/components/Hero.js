@@ -3,7 +3,7 @@ export default function Hero({ dict }) {
     <section id="hero" className="mb-16 animate-fade-up">
       <div className="w-fit max-w-full">
         <h1 className="text-4xl sm:text-7xl font-extrabold tracking-tight mb-4 text-white whitespace-nowrap">
-          Tomás Vega Castro.
+          Tomás Vega Castro
           {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Castro</span>*/}
         </h1>
         
