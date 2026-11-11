@@ -4,6 +4,12 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import PoliticaPrivacidadEs from '@/components/legal/PoliticaPrivacidadEs';
 import PoliticaPrivacidadEn from '@/components/legal/PoliticaPrivacidadEn';
+import { getPageMetadata } from '@/lib/seo';
+
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  return getPageMetadata(locale, '/politica-privacidad');
+}
 
 export async function generateStaticParams() {
   return [{ locale: 'es' }, { locale: 'en' }];

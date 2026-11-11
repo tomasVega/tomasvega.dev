@@ -4,6 +4,12 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import AvisoLegalEs from '@/components/legal/AvisoLegalEs';
 import AvisoLegalEn from '@/components/legal/AvisoLegalEn';
+import { getPageMetadata } from '@/lib/seo';
+
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  return getPageMetadata(locale, '/aviso-legal');
+}
 
 export async function generateStaticParams() {
   return [{ locale: 'es' }, { locale: 'en' }];

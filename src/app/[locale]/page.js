@@ -6,6 +6,12 @@ import Projects from '@/components/Projects';
 import Education from '@/components/Education';
 import Skills from '@/components/Skills';
 import Footer from '@/components/Footer';
+import { getPageMetadata, getProfileJsonLd } from '@/lib/seo';
+
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  return getPageMetadata(locale);
+}
 
 export async function generateStaticParams() {
   return [{ locale: 'es' }, { locale: 'en' }];
@@ -18,6 +24,12 @@ export default async function Page({ params }) {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(getProfileJsonLd(locale)).replace(/</g, '\\u003c'),
+        }}
+      />
       <Header dict={dict} locale={locale} />
       <main id="main-content" className="max-w-3xl mx-auto px-6 pt-24 sm:pt-40 pb-20">
         <Hero dict={dict} />

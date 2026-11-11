@@ -4,7 +4,7 @@ export default function Projects({ dict }) {
   return (
     <section id="projects" className="scroll-mt-24 mb-32 animate-fade-up animate-delay-200">
       <div className="flex items-center gap-4 mb-12">
-        <h3 className="text-2xl font-bold text-white">{dict.projects.title}</h3>
+        <h2 className="text-2xl font-bold text-white">{dict.projects.title}</h2>
         <div className="h-px bg-white/10 flex-grow" aria-hidden="true"></div>
       </div>
 
@@ -16,7 +16,7 @@ export default function Projects({ dict }) {
             </svg>
           </div>
           <div>
-            <h4 className="text-xl font-bold text-white">{project.name}</h4>
+            <h3 className="text-xl font-bold text-white">{project.name}</h3>
             <a
               href={project.url}
               target="_blank"

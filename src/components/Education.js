@@ -7,13 +7,13 @@ export default function Education({ dict }) {
   return (
     <section id="education" className="scroll-mt-24 mb-32 animate-fade-up animate-delay-200">
       <div className="flex items-center gap-4 mb-12">
-        <h3 className="text-2xl font-bold text-white">{dict.education.title}</h3>
+        <h2 className="text-2xl font-bold text-white">{dict.education.title}</h2>
         <div className="h-px bg-white/10 flex-grow" aria-hidden="true"></div>
       </div>
       
       <div className="bg-gradient-to-b from-white/5 to-transparent border border-white/10 rounded-2xl p-6 sm:p-8 mb-6 hover:border-white/20 transition-all">
         <div className="flex flex-row justify-between items-baseline mb-2">
-          <h4 className="text-xl font-bold text-white">{dict.education.degree}</h4>
+          <h3 className="text-xl font-bold text-white">{dict.education.degree}</h3>
           <span className="text-sm font-medium text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full ml-4 whitespace-nowrap">2006 — 2012</span>
         </div>
         <div className="text-cyan-400 font-medium mb-6">
@@ -38,7 +38,7 @@ export default function Education({ dict }) {
             <svg className="w-5 h-5 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
             </svg>
-            <h5 className="font-bold text-white">{dict.education.tfg_title}</h5>
+            <h4 className="font-bold text-white">{dict.education.tfg_title}</h4>
           </div>
           <p className="text-sm text-slate-300 mb-4">
             {dict.education.tfg_desc}
@@ -65,7 +65,7 @@ export default function Education({ dict }) {
             </svg>
           </div>
           <div>
-            <h4 className="font-bold text-white">{dict.education.scrum_title}</h4>
+            <h3 className="font-bold text-white">{dict.education.scrum_title}</h3>
             <p className="text-sm text-slate-400">{dict.education.scrum_id}</p>
           </div>
         </div>

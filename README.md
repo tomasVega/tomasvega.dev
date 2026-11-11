@@ -13,6 +13,33 @@ Este proyecto ha sido desarrollado y estructurado con **fines de aprendizaje, pr
 
 ---
 
+## SEO y Google Search Console
+
+Cada página tiene título, descripción, URL canónica y alternativas de idioma propias. Las portadas incluyen datos estructurados `ProfilePage` y `Person`. Los metadatos Open Graph y Twitter utilizan `public/img/social.png`; su fuente editable es `public/img/social.svg`.
+
+La compilación genera `out/sitemap.xml` con las seis páginas en español e inglés y `out/robots.txt` con la ubicación del sitemap. Cloudflare puede añadir sus reglas de robots gestionadas al archivo publicado.
+
+Para compilar y comprobar el HTML que se publicará:
+
+```sh
+npm run build
+npm run check:seo
+```
+
+Publica el directorio `out` mediante el alojamiento existente. El archivo `_redirects` aplica una redirección permanente de `/` a `/es`; en desarrollo Next.js realiza esa redirección.
+
+Para completar el alta en [Google Search Console](https://search.google.com/search-console):
+
+1. Añade una propiedad de dominio para `tomasvega.dev` y verifica el registro DNS que proporcione Google. No hace falta modificar el código para este método.
+2. Tras publicar, comprueba que `https://tomasvega.dev/sitemap.xml` responde correctamente y envía esa URL en la sección **Sitemaps**.
+3. Inspecciona las URLs `/es` y `/en` y solicita su indexación si procede.
+
+Como alternativa, una propiedad con prefijo de URL permite verificar mediante una etiqueta HTML. Copia **solo el valor `content`** de la etiqueta de Google a `GOOGLE_SITE_VERIFICATION` en el entorno de compilación del alojamiento o en `.env.local` (ver `.env.example`), y vuelve a compilar y publicar. Sin ese valor no se emite una etiqueta de verificación vacía.
+
+La verificación confirma la propiedad del sitio; Google decide cuándo rastrear e indexar las páginas. Las comprobaciones locales validan el HTML exportado y no sustituyen los informes de Search Console o Core Web Vitals.
+
+---
+
 ## 📄 Licencia
 
 Este repositorio se distribuye bajo dos esquemas de derechos bien diferenciados:

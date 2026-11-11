@@ -4,7 +4,7 @@ export default function Experience({ dict }) {
   return (
     <section id="experience" className="scroll-mt-24 mb-32 animate-fade-up animate-delay-100">
       <div className="flex items-center gap-4 mb-12">
-        <h3 className="text-2xl font-bold text-white">{dict.experience.title}</h3>
+        <h2 className="text-2xl font-bold text-white">{dict.experience.title}</h2>
         <div className="h-px bg-white/10 flex-grow" aria-hidden="true"></div>
       </div>
       
@@ -16,7 +16,7 @@ export default function Experience({ dict }) {
           
           <div className="mb-4">
             <div className="flex flex-row justify-between items-baseline">
-              <h4 className="text-xl font-bold text-white">{dict.experience.plexus.role}</h4>
+              <h3 className="text-xl font-bold text-white">{dict.experience.plexus.role}</h3>
               <span className="text-sm font-medium text-cyan-400 bg-cyan-400/10 border border-cyan-400/20 px-3 py-1 rounded-full ml-4 whitespace-nowrap">
                 {dict.experience.plexus.duration}
               </span>
@@ -61,7 +61,7 @@ export default function Experience({ dict }) {
           
           <div className="mb-4">
             <div className="flex flex-row justify-between items-baseline">
-              <h4 className="text-xl font-bold text-white">{dict.experience.globant.role}</h4>
+              <h3 className="text-xl font-bold text-white">{dict.experience.globant.role}</h3>
               <span className="text-sm font-medium text-slate-400 bg-white/5 border border-white/10 px-3 py-1 rounded-full ml-4 whitespace-nowrap">
                 {dict.experience.globant.duration}
               </span>

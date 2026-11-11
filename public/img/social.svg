@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#020617"/>
+  <rect x="32" y="32" width="1136" height="566" rx="24" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+  <rect x="80" y="88" width="56" height="5" rx="2.5" fill="#22d3ee"/>
+  <text x="80" y="252" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">Tomás Vega Castro</text>
+  <text x="80" y="322" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="38">Software Engineer</text>
+  <text x="80" y="402" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="26">Java · Spring · PHP</text>
+  <line x1="80" y1="478" x2="1120" y2="478" stroke="#334155"/>
+  <text x="80" y="540" fill="#22d3ee" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">tomasvega.dev</text>
+  <text x="1120" y="540" text-anchor="end" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="24">Ourense, Galicia</text>
+</svg>
