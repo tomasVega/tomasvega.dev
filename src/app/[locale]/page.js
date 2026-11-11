@@ -2,6 +2,7 @@ import { getDictionary } from '@/get-dictionary';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Experience from '@/components/Experience';
+import Projects from '@/components/Projects';
 import Education from '@/components/Education';
 import Skills from '@/components/Skills';
 import Footer from '@/components/Footer';
@@ -21,6 +22,7 @@ export default async function Page({ params }) {
       <main id="main-content" className="max-w-3xl mx-auto px-6 pt-24 sm:pt-40 pb-20">
         <Hero dict={dict} />
         <Experience dict={dict} />
+        <Projects dict={dict} />
         <Education dict={dict} />
         <Skills dict={dict} />
       </main>

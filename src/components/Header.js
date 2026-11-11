@@ -40,8 +40,9 @@ export default function Header({ dict, locale, isLegalPage = false }) {
         </Link>
 
         {!isLegalPage ? (
-          <div className="hidden md:flex space-x-6 text-sm font-medium text-slate-400">
+          <div className="hidden md:flex items-center gap-1 lg:gap-4 text-sm font-medium text-slate-400">
             <a href="#experience" className="hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-lg px-2.5 py-1">{dict.nav.experience}</a>
+            <a href="#projects" className="hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-lg px-2.5 py-1">{dict.nav.projects}</a>
             <a href="#education" className="hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-lg px-2.5 py-1">{dict.nav.education}</a>
             <a href="#skills" className="hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400 focus-visible:rounded-lg px-2.5 py-1">{dict.nav.skills}</a>
           </div>

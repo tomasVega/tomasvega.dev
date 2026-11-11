@@ -1,6 +1,7 @@
 {
   "nav": {
     "experience": "Experiencia",
+    "projects": "Proyectos",
     "education": "Educación",
     "skills": "Aptitudes",
     "back": "Volver"
@@ -56,6 +57,16 @@
       "collab": "Colaboración estratégica internacional Plexus-Globant"
     }
   },
+  "projects": {
+    "title": "Proyectos personales",
+    "niblio": {
+      "name": "Niblio",
+      "desc": "Una app para organizar tu biblioteca personal y registrar tus lecturas. Con estanterías personalizadas, escáner de isbn, estadísticas avanzadas y mucho más. Centrada en preservar tu privacidad.",
+      "platforms": "iOS y Android",
+      "link": "niblio.app",
+      "url": "https://niblio.app/"
+    }
+  },
   "education": {
     "title": "Educación y Certificaciones",
     "degree": "Grado en Ingeniería Informática",
@@ -72,8 +83,15 @@
       "backend": "Backend & Bases de Datos",
       "frontend": "Frontend",
       "methodologies": "Metodologías & DevOps",
+      "ai": "IA aplicada al desarrollo",
       "languages": "Idiomas"
     },
+    "ai": [
+      "Desarrollo con agentes",
+      "Ingeniería de contexto",
+      "Agent Skills",
+      "MCP"
+    ],
     "langs": {
       "spanish": "Español",
       "spanish_level": "Nativo",

@@ -46,6 +46,19 @@ export default function Skills({ dict }) {
 
         <div>
           <h4 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-4">
+            {dict.skills.categories.ai}
+          </h4>
+          <div className="flex flex-wrap gap-3">
+            {dict.skills.ai.map((skill) => (
+              <span key={skill} className="px-4 py-2 bg-slate-900 border border-slate-700 rounded-lg text-slate-200 font-medium hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all cursor-default">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h4 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-4">
             {dict.skills.categories.languages}
           </h4>
           <div className="flex flex-wrap gap-4">

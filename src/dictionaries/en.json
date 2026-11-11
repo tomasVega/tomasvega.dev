@@ -1,6 +1,7 @@
 {
   "nav": {
     "experience": "Experience",
+    "projects": "Projects",
     "education": "Education",
     "skills": "Skills",
     "back": "Back"
@@ -56,6 +57,16 @@
       "collab": "Plexus-Globant International Strategic Partnership"
     }
   },
+  "projects": {
+    "title": "Personal projects",
+    "niblio": {
+      "name": "Niblio",
+      "desc": "An app to organize your personal library and log your reading. With custom bookshelves, an ISBN scanner, advanced statistics, and much more. Focused on protecting your privacy.",
+      "platforms": "iOS and Android",
+      "link": "niblio.app",
+      "url": "https://niblio.app/en/"
+    }
+  },
   "education": {
     "title": "Education & Certifications",
     "degree": "Bachelor's Degree in Computer Engineering",
@@ -72,8 +83,15 @@
       "backend": "Backend & Databases",
       "frontend": "Frontend & Modern Web",
       "methodologies": "Methodologies & DevOps",
+      "ai": "AI for software development",
       "languages": "Languages"
     },
+    "ai": [
+      "Agentic development",
+      "Context engineering",
+      "Agent Skills",
+      "MCP"
+    ],
     "langs": {
       "spanish": "Spanish",
       "spanish_level": "Native",
